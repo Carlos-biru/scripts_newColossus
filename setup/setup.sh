@@ -1,4 +1,4 @@
-GITHUB_REPO="https://github.com/IE-Robotics-Lab/scripts"
+GITHUB_REPO="https://github.com/Carlos-biru/scripts_newColossus"
 ANSIBLE_PACKAGES="setup/packages.yml"
 
 ####### ANSIBLE SETUP #######
