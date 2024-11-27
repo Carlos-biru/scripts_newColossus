@@ -49,6 +49,6 @@ echo "Done!"
 ####### LDAP and NFS #####
 echo "Running script for LDAP and NFS..."
 LDAP_PATH="setup/services/LDAP.sh"
-wget -q https://raw.githubusercontent.com/IE-Robotics-Lab/scripts/main/$LDAP_PATH -O ldap.sh
+wget -q https://raw.githubusercontent.com/Carlos-biru/scripts_newColossus/main/$LDAP_PATH -O ldap.sh
 chmod +x ldap.sh
 sudo ./ldap.sh
