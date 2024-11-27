@@ -4,7 +4,7 @@ ANSIBLE_PACKAGES="setup/packages.yml"
 ####### ANSIBLE SETUP #######
 echo "Installing Ansible..."
 ANSIBLE_PATH="setup/ansible.sh"
-curl -s https://raw.githubusercontent.com/IE-Robotics-Lab/scripts/master/$ANSIBLE_PATH | bash
+curl -s https://raw.githubusercontent.com/Carlos-biru/scripts_newColossus/master/$ANSIBLE_PATH | bash
 echo "Ansible installed!"
 
 ####### PACKAGES SETUP #######
@@ -21,7 +21,7 @@ else
     read answer
     if [ "$answer" == "y" ]; then
         echo "Enabling local DNS resolution..."
-        DNS_ENABLE_SCRIPT="https://raw.githubusercontent.com/IE-Robotics-Lab/scripts/main/ubuntu_enable_local_dns.sh"
+        DNS_ENABLE_SCRIPT="https://raw.githubusercontent.com/Carlos-biru/scripts_newColossus/main/ubuntu_enable_local_dns.sh"
         curl -s $DNS_ENABLE_SCRIPT | bash
         echo "Waiting for DNS to update..."
         # wait a bit for the DNS to update
