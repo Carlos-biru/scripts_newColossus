@@ -20,8 +20,8 @@ apt-get update && apt-get install -y libnss-ldapd libpam-ldapd nscd nslcd autofs
 
 # Variables
 LDAP_URI="ldap://10.205.10.3/"
-BASE_DN="dc=colossus"
-BIND_DN="cn=admin,dc=colossus"
+BASE_DN="dc=prometheus"
+BIND_DN="cn=admin,dc=prometheus,dc=lab"
 # prompt for the password -s can sometimes be an ilegal option
 read -p "Enter the LDAP bind password: " BIND_PW
 # check if the password is correct
